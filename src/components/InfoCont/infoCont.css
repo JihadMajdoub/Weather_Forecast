@@ -1,0 +1,42 @@
+.infoCont{
+    display: flex;
+    margin: 5px 10px;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 550px) {
+    .infoCont {
+        margin: 5px 5px;
+    }
+}
+
+.infoIcon{
+    width: 35px;
+    height: 35px;
+}
+@media screen and (max-width: 550px) {
+    .infoIcon {
+        width: 20px;
+        height: 20px;
+        margin-left: 0;        
+    }
+}
+
+.infoLabel{
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    margin: 15px;
+}
+@media screen and (max-width: 550px) {
+    .infoLabel {
+        margin: 10px        
+    }
+}
+
+span{
+    font-size: 15px;
+}
+

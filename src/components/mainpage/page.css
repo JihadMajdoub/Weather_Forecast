@@ -1,0 +1,80 @@
+
+
+.container {
+    background-image: url('./mountain.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 24px 7px black;
+    width: 400px;
+    height: 500px;
+    padding: 20px 10px;
+    position: relative;
+    border-radius: 60px;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 320px;
+
+    }
+}
+
+
+.header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.searchBarTitle{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.searchBox{
+    display: flex;
+    flex-direction: row;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+
+input{
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.weatherTitle{
+    font-weight: 300;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
